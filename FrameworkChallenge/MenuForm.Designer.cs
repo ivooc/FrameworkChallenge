@@ -36,9 +36,12 @@ namespace FrameworkChallenge
             // 
             // postagensButton
             // 
+            this.postagensButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.postagensButton.Location = new System.Drawing.Point(45, 41);
             this.postagensButton.Name = "postagensButton";
-            this.postagensButton.Size = new System.Drawing.Size(107, 38);
+            this.postagensButton.Size = new System.Drawing.Size(161, 38);
             this.postagensButton.TabIndex = 0;
             this.postagensButton.Text = "Postagens";
             this.postagensButton.UseVisualStyleBackColor = true;
@@ -46,9 +49,12 @@ namespace FrameworkChallenge
             // 
             // albunsButton
             // 
+            this.albunsButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.albunsButton.Location = new System.Drawing.Point(45, 85);
             this.albunsButton.Name = "albunsButton";
-            this.albunsButton.Size = new System.Drawing.Size(107, 38);
+            this.albunsButton.Size = new System.Drawing.Size(161, 38);
             this.albunsButton.TabIndex = 1;
             this.albunsButton.Text = "Álbuns";
             this.albunsButton.UseVisualStyleBackColor = true;
@@ -56,17 +62,21 @@ namespace FrameworkChallenge
             // 
             // todosButton
             // 
+            this.todosButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.todosButton.Location = new System.Drawing.Point(45, 129);
             this.todosButton.Name = "todosButton";
-            this.todosButton.Size = new System.Drawing.Size(107, 38);
+            this.todosButton.Size = new System.Drawing.Size(161, 38);
             this.todosButton.TabIndex = 2;
-            this.todosButton.Text = "To-Dos";
+            this.todosButton.Text = "TO-DOs";
             this.todosButton.UseVisualStyleBackColor = true;
+            this.todosButton.Click += new System.EventHandler(this.TodosButton_Click);
             // 
             // MenuForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
-            this.ClientSize = new System.Drawing.Size(198, 215);
+            this.ClientSize = new System.Drawing.Size(252, 215);
             this.Controls.Add(this.todosButton);
             this.Controls.Add(this.albunsButton);
             this.Controls.Add(this.postagensButton);

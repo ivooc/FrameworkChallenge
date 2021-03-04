@@ -25,5 +25,13 @@ namespace FrameworkChallenge
             albumsForm.ShowDialog(this);
             Show();
         }
+
+        private void TodosButton_Click(object sender, EventArgs e)
+        {
+            TodosForm todosForm = new TodosForm(Utils.GetJsonToDataTable<Todo>("https://jsonplaceholder.typicode.com/todos"));
+            Hide();
+            todosForm.ShowDialog(this);
+            Show();
+        }
     }
 }
