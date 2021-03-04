@@ -1,16 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FrameworkChallenge
+﻿namespace FrameworkChallenge
 {
-    public class Todo
+    public class Todo : BasePost
     {
-        public int UserId { get; private set; }
-        public int Id { get; private set; }
-        public string Title { get; private set; }
         public bool Completed { get; private set; }
 
         public Todo(int userId, int id, string title, bool completed)
