@@ -1,7 +1,7 @@
 ﻿
 namespace FrameworkChallenge
 {
-    partial class PostagensForm
+    partial class AlbunsForm
     {
         /// <summary>
         /// Required designer variable.
@@ -31,10 +31,10 @@ namespace FrameworkChallenge
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.voltarButton = new System.Windows.Forms.Button();
-            this.postagensPanel = new System.Windows.Forms.Panel();
-            this.postagensView = new System.Windows.Forms.DataGridView();
-            this.postagensPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.postagensView)).BeginInit();
+            this.albunsPanel = new System.Windows.Forms.Panel();
+            this.albunsView = new System.Windows.Forms.DataGridView();
+            this.albunsPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.albunsView)).BeginInit();
             this.SuspendLayout();
             // 
             // voltarButton
@@ -47,56 +47,56 @@ namespace FrameworkChallenge
             this.voltarButton.UseVisualStyleBackColor = true;
             this.voltarButton.Click += new System.EventHandler(this.VoltarButton_Click);
             // 
-            // postagensPanel
+            // albunsPanel
             // 
-            this.postagensPanel.Controls.Add(this.postagensView);
-            this.postagensPanel.Location = new System.Drawing.Point(12, 123);
-            this.postagensPanel.Name = "postagensPanel";
-            this.postagensPanel.Size = new System.Drawing.Size(553, 315);
-            this.postagensPanel.TabIndex = 2;
+            this.albunsPanel.Controls.Add(this.albunsView);
+            this.albunsPanel.Location = new System.Drawing.Point(12, 123);
+            this.albunsPanel.Name = "albunsPanel";
+            this.albunsPanel.Size = new System.Drawing.Size(553, 315);
+            this.albunsPanel.TabIndex = 2;
             // 
-            // postagensView
+            // albunsView
             // 
-            this.postagensView.AllowUserToAddRows = false;
-            this.postagensView.AllowUserToDeleteRows = false;
-            this.postagensView.AllowUserToOrderColumns = true;
-            this.postagensView.AllowUserToResizeColumns = false;
-            this.postagensView.AllowUserToResizeRows = false;
+            this.albunsView.AllowUserToAddRows = false;
+            this.albunsView.AllowUserToDeleteRows = false;
+            this.albunsView.AllowUserToOrderColumns = true;
+            this.albunsView.AllowUserToResizeColumns = false;
+            this.albunsView.AllowUserToResizeRows = false;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.postagensView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.postagensView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.postagensView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.postagensView.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.postagensView.Location = new System.Drawing.Point(0, 0);
-            this.postagensView.Name = "postagensView";
-            this.postagensView.ReadOnly = true;
-            this.postagensView.RowHeadersVisible = false;
-            this.postagensView.RowHeadersWidth = 51;
-            this.postagensView.RowTemplate.Height = 24;
-            this.postagensView.Size = new System.Drawing.Size(553, 315);
-            this.postagensView.TabIndex = 0;
+            this.albunsView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.albunsView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.albunsView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.albunsView.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.albunsView.Location = new System.Drawing.Point(0, 0);
+            this.albunsView.Name = "albunsView";
+            this.albunsView.ReadOnly = true;
+            this.albunsView.RowHeadersVisible = false;
+            this.albunsView.RowHeadersWidth = 51;
+            this.albunsView.RowTemplate.Height = 24;
+            this.albunsView.Size = new System.Drawing.Size(553, 315);
+            this.albunsView.TabIndex = 0;
             // 
-            // PostagensForm
+            // AlbunsForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.ClientSize = new System.Drawing.Size(577, 450);
-            this.Controls.Add(this.postagensPanel);
+            this.Controls.Add(this.albunsPanel);
             this.Controls.Add(this.voltarButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
-            this.Name = "PostagensForm";
+            this.Name = "AlbunsForm";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Postagens";
-            this.postagensPanel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.postagensView)).EndInit();
+            this.Text = "Álbuns";
+            this.albunsPanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.albunsView)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
         private System.Windows.Forms.Button voltarButton;
-        private System.Windows.Forms.Panel postagensPanel;
-        private System.Windows.Forms.DataGridView postagensView;
+        private System.Windows.Forms.Panel albunsPanel;
+        private System.Windows.Forms.DataGridView albunsView;
     }
 }

@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Album.cs" />
+    <Compile Include="BasePost.cs" />
     <Compile Include="MenuForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,6 +58,12 @@
       <DependentUpon>MenuForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Post.cs" />
+    <Compile Include="AlbunsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlbunsForm.Designer.cs">
+      <DependentUpon>AlbunsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="PostagensForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +76,9 @@
     <Compile Include="Todo.cs" />
     <EmbeddedResource Include="MenuForm.resx">
       <DependentUpon>MenuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlbunsForm.resx">
+      <DependentUpon>AlbunsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PostagensForm.resx">
       <DependentUpon>PostagensForm.cs</DependentUpon>

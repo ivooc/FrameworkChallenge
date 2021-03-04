@@ -52,6 +52,7 @@ namespace FrameworkChallenge
             this.albunsButton.TabIndex = 1;
             this.albunsButton.Text = "Álbuns";
             this.albunsButton.UseVisualStyleBackColor = true;
+            this.albunsButton.Click += new System.EventHandler(this.AlbunsButton_Click);
             // 
             // todosButton
             // 

@@ -10,22 +10,17 @@ namespace FrameworkChallenge
 {
     public static class Utils
     {
-        public static string GetJson(string url)
+        public static List<T> GetJsonToList<T>(string url) where T : BasePost
         {
             string json;
             using (WebClient wc = new WebClient())
             {
                 json = wc.DownloadString($@"{url}");
             }
-            return json;
-        }
-
-        public static List<T> JsonToList<T>(string json)
-        {
             return JsonConvert.DeserializeObject<List<T>>(json);
         }
 
-        public static DataTable JsonListToDataTable<T>(this IList<T> data)
+        public static DataTable JsonListToDataTable<T>(this IList<T> data) where T : BasePost
         {
             PropertyDescriptorCollection properties = TypeDescriptor.GetProperties(typeof(T));
             DataTable table = new DataTable();
@@ -40,6 +35,5 @@ namespace FrameworkChallenge
             }
             return table;
         }
-
     }
 }

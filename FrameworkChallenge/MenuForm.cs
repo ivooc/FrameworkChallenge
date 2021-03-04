@@ -13,11 +13,19 @@ namespace FrameworkChallenge
 
         private void PostagensButton_Click(object sender, EventArgs e)
         {
-            string postsJson = Utils.GetJson("https://jsonplaceholder.typicode.com/posts");
-            List<Post> postsList = Utils.JsonToList<Post>(postsJson);
+            List<Post> postsList = Utils.GetJsonToList<Post>("https://jsonplaceholder.typicode.com/posts");
             PostagensForm postagensForm = new PostagensForm(Utils.JsonListToDataTable(postsList));
             Hide();
             postagensForm.ShowDialog(this);
+            Show();
+        }
+
+        private void AlbunsButton_Click(object sender, EventArgs e)
+        {
+            List<Album> albumsList = Utils.GetJsonToList<Album>("https://jsonplaceholder.typicode.com/albums");
+            AlbunsForm albumsForm = new AlbunsForm(Utils.JsonListToDataTable(albumsList));
+            Hide();
+            albumsForm.ShowDialog(this);
             Show();
         }
     }

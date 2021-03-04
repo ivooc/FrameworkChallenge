@@ -8,6 +8,7 @@ namespace FrameworkChallenge
         public PostagensForm(DataTable postsTable)
         {
             InitializeComponent();
+            postsTable.Columns["Body"].SetOrdinal(3);
             postagensView.DataSource = postsTable;
             postagensView.Columns[0].HeaderText = "ID do Usuário";
             postagensView.Columns[1].HeaderText = "ID";
