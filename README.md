@@ -1,3 +1,4 @@
+
 # Framework Challenge
 
 Projeto produzido para o desafio técnico do processo seletivo da Framework.
@@ -10,9 +11,9 @@ A aplicação foi desenvolvida utilizando a linguagem C# (.NET Framework 4.7.2)
 
 Para compilar a aplicação, é necessário possuir o Visual Studio 2019 instalado. Então segue-se os passos:
 
-1- Clonar o repositório;
-2- Abrir o arquivo FrameworkChallenge.sln com o Visual Studio;
-3- Selecionar a configuração Debug (para depuração) ou Release;
-4- No menu superior, clicar em Compilação > Compilar Solução.
+ 1. Clonar o repositório;
+ 2. Abrir o arquivo FrameworkChallenge.sln com o Visual Studio;
+ 3. Selecionar a configuração Debug (para depuração) ou Release;
+ 4. No menu superior, clicar em Compilação > Compilar Solução.
 
 Para executar, basta pressionar F5 (modo de depuração) ou Ctrl+F5.
