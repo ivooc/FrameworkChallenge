@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Net;
+using System.Text;
 
 
 namespace FrameworkChallenge
@@ -40,6 +41,25 @@ namespace FrameworkChallenge
                 table.Rows.Add(row);
             }
             return table;
+        }
+
+        public static string GetFilter(string userId, string id, string title, string body, bool filterCompleted, bool completed)
+        {
+            StringBuilder filterBuilder = new StringBuilder();
+            if (!string.IsNullOrEmpty(userId) && int.Parse(userId) > 0)
+                filterBuilder.Append($"UserId = '{userId}' AND ");
+            if (!string.IsNullOrEmpty(id) && int.Parse(id) > 0)
+                filterBuilder.Append($"Id = '{id}' AND ");
+            if (!string.IsNullOrWhiteSpace(title))
+                filterBuilder.Append($"Title LIKE '%{title}%' AND ");
+            if (!string.IsNullOrWhiteSpace(body))
+                filterBuilder.Append($"Body LIKE '%{body}%' AND ");
+            if (filterCompleted)
+                filterBuilder.Append($"Completed = '{completed}'");
+            string filter = filterBuilder.ToString();
+            if (filter != string.Empty && filter.Substring(filter.Length - 5, 5) == " AND ")
+                filter = filter.Remove(filter.Length - 5, 5);
+            return filter;
         }
     }
 }
