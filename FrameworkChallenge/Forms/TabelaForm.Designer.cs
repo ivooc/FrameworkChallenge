@@ -1,7 +1,7 @@
 ﻿
 namespace FrameworkChallenge.Forms
 {
-    partial class AlbunsForm
+    partial class TabelaForm
     {
         /// <summary>
         /// Required designer variable.
@@ -31,10 +31,10 @@ namespace FrameworkChallenge.Forms
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.voltarButton = new System.Windows.Forms.Button();
-            this.albunsPanel = new System.Windows.Forms.Panel();
-            this.albunsView = new System.Windows.Forms.DataGridView();
-            this.albunsPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.albunsView)).BeginInit();
+            this.dataGridPanel = new System.Windows.Forms.Panel();
+            this.dataGridView = new System.Windows.Forms.DataGridView();
+            this.dataGridPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.SuspendLayout();
             // 
             // voltarButton
@@ -47,56 +47,56 @@ namespace FrameworkChallenge.Forms
             this.voltarButton.UseVisualStyleBackColor = true;
             this.voltarButton.Click += new System.EventHandler(this.VoltarButton_Click);
             // 
-            // albunsPanel
+            // dataGridPanel
             // 
-            this.albunsPanel.Controls.Add(this.albunsView);
-            this.albunsPanel.Location = new System.Drawing.Point(12, 123);
-            this.albunsPanel.Name = "albunsPanel";
-            this.albunsPanel.Size = new System.Drawing.Size(553, 315);
-            this.albunsPanel.TabIndex = 2;
+            this.dataGridPanel.Controls.Add(this.dataGridView);
+            this.dataGridPanel.Location = new System.Drawing.Point(12, 123);
+            this.dataGridPanel.Name = "dataGridPanel";
+            this.dataGridPanel.Size = new System.Drawing.Size(553, 315);
+            this.dataGridPanel.TabIndex = 2;
             // 
-            // albunsView
+            // dataGridView
             // 
-            this.albunsView.AllowUserToAddRows = false;
-            this.albunsView.AllowUserToDeleteRows = false;
-            this.albunsView.AllowUserToOrderColumns = true;
-            this.albunsView.AllowUserToResizeColumns = false;
-            this.albunsView.AllowUserToResizeRows = false;
+            this.dataGridView.AllowUserToAddRows = false;
+            this.dataGridView.AllowUserToDeleteRows = false;
+            this.dataGridView.AllowUserToOrderColumns = true;
+            this.dataGridView.AllowUserToResizeColumns = false;
+            this.dataGridView.AllowUserToResizeRows = false;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.albunsView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.albunsView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.albunsView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.albunsView.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.albunsView.Location = new System.Drawing.Point(0, 0);
-            this.albunsView.Name = "albunsView";
-            this.albunsView.ReadOnly = true;
-            this.albunsView.RowHeadersVisible = false;
-            this.albunsView.RowHeadersWidth = 51;
-            this.albunsView.RowTemplate.Height = 24;
-            this.albunsView.Size = new System.Drawing.Size(553, 315);
-            this.albunsView.TabIndex = 0;
+            this.dataGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.dataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView.Name = "dataGridView";
+            this.dataGridView.ReadOnly = true;
+            this.dataGridView.RowHeadersVisible = false;
+            this.dataGridView.RowHeadersWidth = 51;
+            this.dataGridView.RowTemplate.Height = 24;
+            this.dataGridView.Size = new System.Drawing.Size(553, 315);
+            this.dataGridView.TabIndex = 0;
             // 
-            // AlbunsForm
+            // TabelaForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.ClientSize = new System.Drawing.Size(577, 450);
-            this.Controls.Add(this.albunsPanel);
+            this.Controls.Add(this.dataGridPanel);
             this.Controls.Add(this.voltarButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
-            this.Name = "AlbunsForm";
+            this.Name = "TabelaForm";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Álbuns";
-            this.albunsPanel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.albunsView)).EndInit();
+            this.Text = "Tabela";
+            this.dataGridPanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
         private System.Windows.Forms.Button voltarButton;
-        private System.Windows.Forms.Panel albunsPanel;
-        private System.Windows.Forms.DataGridView albunsView;
+        private System.Windows.Forms.Panel dataGridPanel;
+        private System.Windows.Forms.DataGridView dataGridView;
     }
 }

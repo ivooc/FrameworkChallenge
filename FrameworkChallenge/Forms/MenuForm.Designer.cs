@@ -36,8 +36,8 @@ namespace FrameworkChallenge.Forms
             // 
             // postagensButton
             // 
-            this.postagensButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.postagensButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.postagensButton.Location = new System.Drawing.Point(45, 41);
             this.postagensButton.Name = "postagensButton";
@@ -45,12 +45,12 @@ namespace FrameworkChallenge.Forms
             this.postagensButton.TabIndex = 0;
             this.postagensButton.Text = "Postagens";
             this.postagensButton.UseVisualStyleBackColor = true;
-            this.postagensButton.Click += new System.EventHandler(this.PostagensButton_Click);
+            this.postagensButton.Click += new System.EventHandler(this.AbrirTabelaButton_Click);
             // 
             // albunsButton
             // 
-            this.albunsButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.albunsButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.albunsButton.Location = new System.Drawing.Point(45, 85);
             this.albunsButton.Name = "albunsButton";
@@ -58,12 +58,12 @@ namespace FrameworkChallenge.Forms
             this.albunsButton.TabIndex = 1;
             this.albunsButton.Text = "Álbuns";
             this.albunsButton.UseVisualStyleBackColor = true;
-            this.albunsButton.Click += new System.EventHandler(this.AlbunsButton_Click);
+            this.albunsButton.Click += new System.EventHandler(this.AbrirTabelaButton_Click);
             // 
             // todosButton
             // 
-            this.todosButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.todosButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.todosButton.Location = new System.Drawing.Point(45, 129);
             this.todosButton.Name = "todosButton";
@@ -71,7 +71,7 @@ namespace FrameworkChallenge.Forms
             this.todosButton.TabIndex = 2;
             this.todosButton.Text = "TO-DOs";
             this.todosButton.UseVisualStyleBackColor = true;
-            this.todosButton.Click += new System.EventHandler(this.TodosButton_Click);
+            this.todosButton.Click += new System.EventHandler(this.AbrirTabelaButton_Click);
             // 
             // MenuForm
             // 
