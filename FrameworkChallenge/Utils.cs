@@ -10,12 +10,21 @@ namespace FrameworkChallenge
 {
     public static class Utils
     {
-        public static DataTable GetJsonToDataTable<T>(string url) where T : BasePost
+        public static DataTable GetJsonToDataTable<T>(string url, out string mensagemErro) where T : BasePost
         {
-            string json;
+            string json = string.Empty;
+            mensagemErro = string.Empty;
             using (WebClient wc = new WebClient())
             {
-                json = wc.DownloadString($@"{url}");
+                try
+                {
+                    json = wc.DownloadString($@"{url}");
+                }
+                catch (Exception e)
+                {
+                    mensagemErro = $"{e.GetType().Name}: {e.Message}";
+                    return new DataTable();
+                }
             }
             List<T> jsonList = JsonConvert.DeserializeObject<List<T>>(json);
             PropertyDescriptorCollection properties = TypeDescriptor.GetProperties(typeof(T));
