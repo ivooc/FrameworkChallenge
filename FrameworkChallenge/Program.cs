@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FrameworkChallenge.Forms;
+using System;
 using System.Windows.Forms;
 
 namespace FrameworkChallenge

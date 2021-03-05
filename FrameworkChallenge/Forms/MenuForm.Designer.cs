@@ -1,5 +1,5 @@
 ﻿
-namespace FrameworkChallenge
+namespace FrameworkChallenge.Forms
 {
     partial class MenuForm
     {
@@ -36,8 +36,8 @@ namespace FrameworkChallenge
             // 
             // postagensButton
             // 
-            this.postagensButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.postagensButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.postagensButton.Location = new System.Drawing.Point(45, 41);
             this.postagensButton.Name = "postagensButton";
@@ -49,8 +49,8 @@ namespace FrameworkChallenge
             // 
             // albunsButton
             // 
-            this.albunsButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.albunsButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.albunsButton.Location = new System.Drawing.Point(45, 85);
             this.albunsButton.Name = "albunsButton";
@@ -62,8 +62,8 @@ namespace FrameworkChallenge
             // 
             // todosButton
             // 
-            this.todosButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.todosButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.todosButton.Location = new System.Drawing.Point(45, 129);
             this.todosButton.Name = "todosButton";
@@ -97,4 +97,3 @@ namespace FrameworkChallenge
         private System.Windows.Forms.Button todosButton;
     }
 }
-

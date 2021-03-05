@@ -1,5 +1,5 @@
 ﻿
-namespace FrameworkChallenge
+namespace FrameworkChallenge.Forms
 {
     partial class AlbunsForm
     {

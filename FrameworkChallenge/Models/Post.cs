@@ -1,4 +1,4 @@
-﻿namespace FrameworkChallenge
+﻿namespace FrameworkChallenge.Models
 {
     public class Post : BasePost
     {

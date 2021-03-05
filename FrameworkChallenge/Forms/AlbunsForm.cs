@@ -1,7 +1,7 @@
 ﻿using System.Data;
 using System.Windows.Forms;
 
-namespace FrameworkChallenge
+namespace FrameworkChallenge.Forms
 {
     public partial class AlbunsForm : Form
     {

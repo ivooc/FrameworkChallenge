@@ -1,8 +1,9 @@
-﻿using System;
+﻿using FrameworkChallenge.Models;
+using System;
 using System.Data;
 using System.Windows.Forms;
 
-namespace FrameworkChallenge
+namespace FrameworkChallenge.Forms
 {
     public partial class MenuForm : Form
     {
