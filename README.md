@@ -6,7 +6,7 @@ O objetivo desse projeto foi desenvolver uma aplicação que consiste em um Menu
 
 Para cada uma dessas 3 telas, os endpoints de "posts", "albums" e "todos" deveriam ser acessados para recuperar um JSON com os dados a serem preenchidos nas tabelas.
 
-A aplicação foi desenvolvida utilizando a linguagem C# (.NET Framework 4.7.2). A biblioteca open source Json.NET foi utilizada para desserialização.
+A aplicação foi desenvolvida utilizando a linguagem C# (.NET Framework 4.7.2). A biblioteca open source [Json.NET](https://www.newtonsoft.com/json) foi utilizada para desserialização.
 
 Para compilar a aplicação, é necessário possuir o Visual Studio 2019 instalado. Então segue-se os passos:
 
