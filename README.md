@@ -21,7 +21,7 @@ Caso não possua o Visual Studio instalado, é possível compilar o código segu
 
 1. Baixe o [.NET Framework 4.7.2 Developer Pack](https://go.microsoft.com/fwlink/?linkid=874338);
 2. Baixe o [NuGet](https://dist.nuget.org/win-x86-commandline/latest/nuget.exe) para instalação do pacote Json.NET;
-3. Clone o repositório;
+3. Clone o repositório e copie o `NuGet.exe` para o diretório da solução;
 4. Abra um prompt de comando e altere o diretório de trabalho para o do repositório clonado (Ex. `cd C:\Users\Me\Documents\FrameworkChallenge`);
 5. Execute o `NuGet.exe` para baixar o pacote necessário: `NuGet.exe install FrameworkChallenge/packages.config -o packages/`
 6. Altere o diretório de trabalho para o de instalação do .NET Framework Developer Pack: `cd C:\Windows\Microsoft.NET\Framework\v4*`
