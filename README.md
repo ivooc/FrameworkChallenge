@@ -25,4 +25,4 @@ Caso não possua o Visual Studio instalado, é possível compilar o código segu
 4. Abra um prompt de comando e altere o diretório de trabalho para o do repositório clonado (Ex. `cd C:\Users\Me\Documents\FrameworkChallenge`);
 5. Execute o `NuGet.exe` para baixar o pacote necessário: `NuGet.exe install FrameworkChallenge/packages.config -o packages/`
 6. Altere o diretório de trabalho para o de instalação do .NET Framework Developer Pack: `cd C:\Windows\Microsoft.NET\Framework\v4*`
-7. Use o `MSBuild.exe` para compilar a solução: `msbuild C:\Users\Me\Documents\FrameworkChallenge\FrameworkChallenge.sln" /t:Rebuild /p:Configuration=Release /p:Platform="Any CPU"`. Lembre-se de substituir o diretório para o diretório real em que o projeto está localizado em seu computador.
+7. Use o `MSBuild.exe` para compilar a solução: `msbuild C:\Users\Me\Documents\FrameworkChallenge\FrameworkChallenge.sln /t:Rebuild /p:Configuration=Release /p:Platform="Any CPU"`. Lembre-se de substituir o diretório para o diretório real em que o projeto está localizado em seu computador.
